@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  font-family: "Rubik", sans-serif !important;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.shop {
+  display: flex;
+  gap: 30px;
+  background: #30d5c8;
+}
+
+header {
+  padding: 10px 30px;
+  background: #cc73c2;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+header > a > img {
+  width: 60px;
+  height: 60px;
+}
+header > p {
+  font-family: "Rubik Iso", cursive;
+  font-size: 60px;
+  color: white;
+}
+
+.categories {
+  padding: 30px 20px;
+  background: #9eff00;
+  max-width: 200px;
+  min-height: 100vh;
+  position: sticky;
+}
+.categories_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories_list .category {
+  margin-bottom: 30px;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+.categories_list .category:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.product-details {
+  padding: 50px 15px;
+  display: none;
+  background: #ffba00;
+  width: 100%;
+}
+.product-details > h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.product-details > img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px !important;
+}
+.product-details > p {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.product-details > button {
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product-details > button:hover {
+  background: #cc73c2;
+}
+
+.products {
+  padding: 100px;
+}
+
+.product-list {
+  display: flex;
+  gap: 200px;
+}
+.product-list > li:hover {
+  color: #8b00ff;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
